@@ -3,10 +3,34 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <title> pagina formulario</title>
+    <title> 👺pagina formulario👺</title>
+    <link href="css/formulario.css" rel="stylesheet"/>
 </head>
 <body>
-
-
+    <h1> 👺pagina formulario👺 </h1>
+    <form name="form-login" method="post">
+        <fieldset>
+            <legend> login </legend>
+            <label> E-mail: </label>
+            <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            maxlength="20" 
+            title="máximo 20 caracteres" 
+            size="30" 
+            placeholder="gragas@gmail" 
+            required /><br>
+            <label> Senha: </label>
+            <input 
+            type="password" id="senha" name="senha" placeholder="zezinho777" title="minimo 6 caracteres"
+             required /><br>
+            <input type="checkbox" id="lembrar" name="lembrar">
+            Lembrar usuario?
+        </fieldset>
+        <input type="submit" value="login"/>
+        <input type="reset" value="limpar"/>
+    </form>
+    <a href="novo.html"> Ainda não é usuario? </a>
 </body>
 </html>
